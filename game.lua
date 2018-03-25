@@ -167,6 +167,7 @@ local Death = Game:addState('Death')
 	
 function Death:enteredState()
 	death:play()
+	death:setLooping(true)
 	love.graphics.setBackgroundColor(0, 0, 0)
 end
 
