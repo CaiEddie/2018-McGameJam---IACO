@@ -17,6 +17,7 @@ thingies = love.audio.newSource("thingies.mp3")
 
 
 
+
 --music:setLooping(true)--need actual loop condition for new boss appears or smthing
 --music:setPitch(love.math.random()) --for sound effects
 
